@@ -1,27 +1,25 @@
 function numberDoubler(num) {
-    if (num * 2 => 100)
-    return numberDoubler;
+    let endingNum = num;
+    while (endingNum < 100) {
+        endingNum = endingNum * 2;
+    }
+    return outputNum;
 }
-while (numberDoubler => 100) {
-    numberDoubler = numberDoubler * 2
-    return num;
-}
-
 
 function stringRepeater(str) {
-    const repeatedString = " "; 
-    //if (str => 10) {
+    const returningString = str;
+    while (returningString.length < 10) {
+        returningString += str;
+    }
+    return outputStr;
 }
-    while(str > 0)
-    repeatedString = repeatedString + string; 
-}
-    return repeatedString;
-}
-
-
 
 function makeDivisible(x, y) {
-    // Your code here
+    const outputX = x;
+    while (outputX % y !==0) {
+        outputX+1;
+    }
+    return outputX;
 }
 
 module.exports = {
